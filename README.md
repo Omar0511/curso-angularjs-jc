@@ -1,6 +1,8 @@
 # Curso ANGULAR.JS
 
-- José Conde
+-Framework de JavaScript
+
+- Jesús Conde
 
 ## Primeros pasos
 
