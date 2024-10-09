@@ -1,4 +1,7 @@
-function AlumnosController($scope) {
+// Definición del módulo de AngularJS
+angular.module('appCuaderno', [])
+// Definición del controlador
+.controller('AlumnosController', function ($scope) {
     $scope.alumnos = [
         {
             nombre: "Omar",
@@ -21,4 +24,5 @@ function AlumnosController($scope) {
             curso: "javascript"
         }
     ];
-}
+});
+
