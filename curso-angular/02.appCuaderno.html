@@ -1,0 +1,26 @@
+<!DOCTYPE html ng-app>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Cuaderno</title>
+
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <h1>Cuaderno Alumnos</h1>
+
+    <div ng-controller="AlumnosController">
+        <div ng-repeat="alumno in alumnos">
+            <h2> {{ alumno.nombre }} </h2>
+
+            <p> {{ alumno.telefono }} </p>
+
+            <p> {{ alumno.curso }} </p>
+        </div>
+    </div>
+
+    <script src="../js/02.appCuaderno.js" type="text/javascript"></script>
+    <script src="../angularjs/angular.min.js" type="text/javascript"></script>
+</body>
+</html>
