@@ -24,6 +24,14 @@ angular.module('appCuaderno', [])
             curso: "javascript"
         }
     ];
+
+    $scope.save = function () {
+        $scope.alumnos.push({
+            nombre: $scope.nuevoAlumno.nombre,
+            telefono: $scope.nuevoAlumno.telefono,
+            curso: $scope.nuevoAlumno.curso
+        });
+    }
 });
 
 
