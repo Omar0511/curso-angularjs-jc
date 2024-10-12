@@ -30,8 +30,8 @@
             <p> {{ alumno.curso }} </p>
         </div>
 
-        <div class="contenedor-formulario">
-            <h3>Añadir contactos</h3>
+        <div class="contenedor-formulario" ng-show="formVisibility">
+            <h3>Nuevo Contacto</h3>
 
             <form class="formulario">
                 <label for="nombre">Nombre</label>
@@ -46,6 +46,8 @@
                 <button ng-click="save()">Guardar</button>
             </form>
         </div>
+
+        <button class="contacto" ng-click="showForm()" ng-hide="formVisibility">Añadir Contacto</button>
     </div>
 
     <script src="../lib/angular.min.js" type="text/javascript"></script>

@@ -85,3 +85,25 @@ p {
     background-color: lightseagreen;
     color: #fff;
 }
+
+.contacto {
+    padding: 1rem;
+    margin: 3rem 0;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    border: none;
+    background-color: cadetblue;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.contacto:hover {
+    cursor: pointer;
+    background-color: steelblue;
+    color: #000;
+}
