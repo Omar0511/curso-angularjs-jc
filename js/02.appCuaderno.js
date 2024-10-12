@@ -1,7 +1,7 @@
 // Definición del módulo de AngularJS
 angular.module('appCuaderno', [])
 // Definición del controlador
-.controller('AlumnosController', function ($scope) {
+.controller('AlumnosController',  function ($scope) {
     $scope.alumnos = [
         {
             nombre: "Omar",
@@ -25,4 +25,32 @@ angular.module('appCuaderno', [])
         }
     ];
 });
+
+
+// Confiltro
+// .controller('AlumnosController', ['filterFilter'],  function ($scope) {
+//     $scope.alumnos = [
+//         {
+//             nombre: "Omar",
+//             telefono: "1234567890",
+//             curso: "angular.js"
+//         },
+//         {
+//             nombre: "Sofia",
+//             telefono: "9876543210",
+//             curso: "java"
+//         },
+//         {
+//             nombre: "Luis",
+//             telefono: "0987654321",
+//             curso: "php"
+//         },
+//         {
+//             nombre: "Juan",
+//             telefono: "7654321098",
+//             curso: "javascript"
+//         }
+//     ];
+//     this.filteredArray = filterFilter(this.array, 'e');
+// });
 
