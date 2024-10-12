@@ -10,8 +10,19 @@
 <body>
     <h1>Cuaderno Alumnos</h1>
 
-    <div ng-controller="AlumnosController">
-        <div ng-repeat="alumno in alumnos">
+    <div class="contenedor" ng-controller="AlumnosController">
+        <div class="contenido" ng-repeat="alumno in alumnos">
+            <h2> {{ alumno.nombre }} </h2>
+
+            <p> {{ alumno.telefono }} </p>
+
+            <p> {{ alumno.curso }} </p>
+        </div>
+
+        <!-- FILTROS -->
+        <h3>Filtros</h3>
+        
+        <div class="contenido c2"  ng-repeat="alumno in alumnos | orderBy: 'nombre'">
             <h2> {{ alumno.nombre }} </h2>
 
             <p> {{ alumno.telefono }} </p>
