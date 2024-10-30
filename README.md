@@ -15,4 +15,7 @@
   - Creamos un servidor con EXPRESS:
     -  **_express myserver_**
     -  **_npm install_**
+    -  **_install --save-dev_**
 - Instalamos Grunt
+  - Es un automatizador de tareas
+  - **_npm install -g grunt -cli
