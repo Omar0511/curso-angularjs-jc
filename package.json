@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/MorsaDevOmarG/curso-angularjs-jc/issues"
   },
-  "homepage": "https://github.com/MorsaDevOmarG/curso-angularjs-jc#readme"
+  "homepage": "https://github.com/MorsaDevOmarG/curso-angularjs-jc#readme",
+  "dependencies": {
+    "curso-angularjs-jc": "file:",
+    "grunt": "^1.6.1",
+    "grunt-contrib-concat": "^2.1.0",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-shell": "^4.0.0"
+  }
 }
