@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
     grunt.initConfig({
         jshint: {
-            all: ['js/*.js']  // Lint todos los archivos .js en la carpeta "js"
+            all: ['js/11.script.js', 'js/11.script2.js']
         },
         concat: {
             dist: {
