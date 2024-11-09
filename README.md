@@ -19,3 +19,9 @@
 - Instalamos Grunt
   - Es un automatizador de tareas
   - **_npm install -g grunt -cli
+- **_YEOMAN_**
+  - Workflow: 
+    - es una colección de herramientas como: _GRUNT, GULP, BUILD, PACKAGE MANAGER (BOWER & NPM)_
+    - **_npm install -g yo_**
+    - **_npm install -g generator-angular_**
+    - 
