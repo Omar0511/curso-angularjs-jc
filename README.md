@@ -24,4 +24,5 @@
     - es una colección de herramientas como: _GRUNT, GULP, BUILD, PACKAGE MANAGER (BOWER & NPM)_
     - **_npm install -g yo_**
     - **_npm install -g generator-angular_**
-    - 
+- Versión para producción:
+  - **_grunt --force_**
