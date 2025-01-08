@@ -26,3 +26,14 @@
     - **_npm install -g generator-angular_**
 - Versión para producción:
   - **_grunt --force_**
+
+#### SERVICES
+
+- Permiten reutilizar código en la app
+- Ejemplo:
+  - Un Web Service
+- Son objetos SINGLETON
+  - Se inician solo 1 vez y perciten
+- Son de carga ligera
+  - Se cargan cuando un componente dependen de ello
+- Son inyectados usando DI
