@@ -1,3 +1,15 @@
 <h1>Estrenos por países</h1>
 
 <button class="btn btn-info" ng-click="loadMovies(country.population)" ng-repeat="country in countries">{{ country.name }}</button>
+
+<div class="pin-layout">
+    <div ng-repeat="movie in movies">
+        <div class="thumbnail">
+            <h3 class="caption">{{ movie.title }}</h3>
+
+            <img width="180" src="{{ movie.posters.detailed }}" alt="{{ movie.title }}">
+
+            <p>{{ movie.sypnosis }}</p>
+        </div>
+    </div>
+</div>
