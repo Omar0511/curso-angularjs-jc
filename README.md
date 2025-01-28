@@ -37,3 +37,12 @@
 - Son de carga ligera
   - Se cargan cuando un componente dependen de ello
 - Son inyectados usando DI
+
+#### MONGODB
+
+- Ingresamos a la página:
+  - **https://www.mongodb.com/try/download/community**
+- Seleccionamos:
+  - Versión
+  - Plataforma
+  - Paquete MSI 
