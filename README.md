@@ -46,3 +46,11 @@
   - Versión
   - Plataforma
   - Paquete MSI 
+
+##### APP CON EXPRESS.JS
+
+- npm init -y
+- npm install express
+- Creamos un archivo de configuración
+  - Para mandar a llamarlo es necesario ejecutar en consola:
+    - node server (dentro del directorio)
