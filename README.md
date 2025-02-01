@@ -54,3 +54,25 @@
 - Creamos un archivo de configuración
   - Para mandar a llamarlo es necesario ejecutar en consola:
     - node server (dentro del directorio)
+
+  # Ejemplo de ROUTES en NODE.JS
+    - ROUTE / VERB
+      - ```
+        app.route(path).VERB(callback);
+        app.VERB(path, callback);
+
+        app.get('/', function(req, res) {
+          res.send('Petición GET');
+        });
+
+        app.post('/', function(req, res) {
+          res.send('Petición POST');
+        });
+
+        **AGILIDAD CON NODE**
+        app.route('/', function(req, res) {
+          res.send('Petición GET');
+        }).post('/', function(req, res) {
+          res.send('Petición POST');
+        });
+      ```
