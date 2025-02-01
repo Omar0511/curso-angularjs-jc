@@ -76,3 +76,8 @@
           res.send('Petición POST');
         });
       ```
+    -Dependencias en proyecto:
+      - morgan: LOGGER
+      - compression: RESPUESTAS
+      - body-parser: PETICIONES DE DATOS
+      - method override: VERBOS HTTP
