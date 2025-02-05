@@ -50,6 +50,17 @@
     - **mongod**
   - Iniciar BD:
     - **mongosh**
+  - INSERT:
+    - db.nombreBD.insert( { "titulo": "Primer ejemplo", "usuario":"prueba" } );
+  - UPDATE:
+    - db.nombreBD.UPDATE( { "titulo": "Primer ejemplo modificado", "usuario":"prueba modificado" }, { upsert: true } );
+  - SAVE:
+    - db.nombreBD.save( { "titulo": "Primer ejemplo con save" } );
+  - FIND:
+    - db.nombreBD.find() ó db.nombreBD.find( { } )
+  - IN:
+    - db.nombreBD.find( { "usuario": { $in: ["ester", "jesus"] } })
+  - 
 
 ##### APP CON EXPRESS.JS
 
