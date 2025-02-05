@@ -45,7 +45,11 @@
 - Seleccionamos:
   - Versión
   - Plataforma
-  - Paquete MSI 
+  - Paquete MSI
+  - Iniciar SERVER:
+    - **mongod**
+  - Iniciar BD:
+    - **mongosh**
 
 ##### APP CON EXPRESS.JS
 
